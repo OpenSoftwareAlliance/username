@@ -1,3 +1,17 @@
+<!-- osa:header:start -->
+# OSA Username
+
+Check username availability on 100+ sites. Part of the [Open Software Alliance](https://github.com/OpenSoftwareAlliance) suite.
+
+| | |
+|---|---|
+| Upstream | [Instant Username Search](https://github.com/instantusername/instant-username-search), kept in sync with this repository |
+| License | GPL-3.0 |
+
+Credit for the original work goes to the Instant Username Search authors. Everything below this header is the upstream README.
+
+---
+<!-- osa:header:end -->
 # Instant Username Search
 
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/instantusername/instant-username-search?color=limegreen&label=latest&logo=github&sort=semver)](CHANGELOG)
