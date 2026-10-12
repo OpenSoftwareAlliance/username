@@ -1,51 +1,63 @@
-<!-- osa:header:start -->
+<div align="center">
+
 # OSA Username
 
-Check username availability on 100+ sites. Part of the [Open Software Alliance](https://github.com/OpenSoftwareAlliance) suite.
+**Check username availability on 100+ sites.**
 
-| | |
-|---|---|
-| Upstream | [Instant Username Search](https://github.com/instantusername/instant-username-search), kept in sync with this repository |
-| License | GPL-3.0 |
+Part of the open source suite. Part of the [Open Software Alliance](https://github.com/OpenSoftwareAlliance) suite.
 
-Credit for the original work goes to the Instant Username Search authors. Everything below this header is the upstream README.
+</div>
 
 ---
-<!-- osa:header:end -->
-# Instant Username Search
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/instantusername/instant-username-search?color=limegreen&label=latest&logo=github&sort=semver)](CHANGELOG)
-<a href="https://www.buymeacoffee.com/1ulP4IGFm" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height="30" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+## Features
 
-Instant Username Search helps users find out if their username is taken on more than 100 social media sites. It instantly lists results on the screen while the user is typing.
+- Check username availability on 100+ sites
+- Results streamed as you type
+- Direct links to each profile
+- Lightweight single-page app
 
-<a href="https://www.producthunt.com/posts/instant-username-search?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-instant-username-search" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=151501&theme=light&period=daily" alt="Instant Username Search - Check out if your username is available | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
+## Tech stack
 
-## Development
+- **Current:** React (Create React App)
+- **Target:** Next.js + TypeScript on Cloudflare Workers (see [migration research](https://github.com/OpenSoftwareAlliance/username/issues/2))
 
-You need [node](nodejs.org) and [yarn](https://yarnpkg.com/) installed to run the application.
+## Roadmap
 
-Running the following commands will;
+- [Open source landscape research](https://github.com/OpenSoftwareAlliance/username/issues/1)
+- [Migration research: React/Next.js + TypeScript on Cloudflare Workers](https://github.com/OpenSoftwareAlliance/username/issues/2)
+- [All issues](https://github.com/OpenSoftwareAlliance/username/issues)
 
-- start the application on http://localhost:3000/.
-- start the dev server at http://localhost:8080/.
+## Self-hosting
 
-```shell
-yarn && yarn dev
-```
+Installation and configuration follow the upstream project for now: see the [Instant Username Search documentation](https://github.com/instantusername/instant-username-search#readme).
 
-## Credits
+## The OSA suite
 
-- Core Work: [Umut Canbolat](https://github.com/umutcanbolat)
-- Design improvements: [Emirhan K. Kösem](https://github.com/KemalEmirhan)
-- Translations in Catalan and Spanish: [Aniol Pagès](https://github.com/aniolpages)
-- Translations in French: [Régis Enguehard](https://github.com/regisenguehard) and [Lulucmy](https://github.com/Lulucmy)
-- Translations in Russian and Ukrainian: My friends Tanya and Ira from Ukraine.
-- Translations in Chinese: My co-workers at Huawei.
-- Translations in Portuguese: [Gustavo Guerra](https://github.com/GGustavoGuerra)
+| Product | What it does | Alternative to |
+|---|---|---|
+| [OSA Pad](https://github.com/OpenSoftwareAlliance/pad) | Real-time collaborative document editor. | Google Docs |
+| [OSA Sheet](https://github.com/OpenSoftwareAlliance/sheet) | Online collaborative spreadsheet. | Google Sheets |
+| [OSA Cal](https://github.com/OpenSoftwareAlliance/cal) | Scheduling and booking pages. | Google Calendar (appointment schedules) |
+| [OSA Mail](https://github.com/OpenSoftwareAlliance/mail) | Email forwarding and hosting for custom domains. | Gmail |
+| [OSA Meet](https://github.com/OpenSoftwareAlliance/meet) | Secure peer-to-peer video meetings. | Google Meet |
+| [OSA Draw](https://github.com/OpenSoftwareAlliance/draw) | Infinite canvas whiteboard. | Google Drawings / Jamboard |
+| [OSA Drop](https://github.com/OpenSoftwareAlliance/drop) | Local file sharing in the browser. | Quick Share |
+| [OSA Share](https://github.com/OpenSoftwareAlliance/share) | Simple temporary file hosting. | Google Drive (file links) |
+| [OSA Share Admin](https://github.com/OpenSoftwareAlliance/share-admin) | Moderation panel for OSA Share. | Google Drive admin |
+| [OSA Bin](https://github.com/OpenSoftwareAlliance/bin) | Zero-knowledge encrypted pastebin. | Google Keep (secure notes) |
+| [OSA Snip](https://github.com/OpenSoftwareAlliance/snip) | Self-hosted code snippets and gists. | Google Keep (snippets) |
+| [OSA Short](https://github.com/OpenSoftwareAlliance/short) | URL shortener with analytics. | goo.gl |
+| [OSA Alias](https://github.com/OpenSoftwareAlliance/alias) | DNS-based domain redirection. | Google Domains forwarding |
+| [OSA Page](https://github.com/OpenSoftwareAlliance/page) | Link-in-bio pages. | Google Sites |
+| [OSA Feedback](https://github.com/OpenSoftwareAlliance/feedback) | Feedback boards and public roadmaps. | Google Forms (product feedback) |
+| [OSA Jam](https://github.com/OpenSoftwareAlliance/jam) | Live audio rooms. | Google Meet (audio) |
+| [OSA Micro](https://github.com/OpenSoftwareAlliance/micro) | Ready-to-use micro service APIs. | Google Cloud APIs |
+| [OSA Username](https://github.com/OpenSoftwareAlliance/username) | Check username availability on 100+ sites. | - |
+| [OSA Status](https://github.com/OpenSoftwareAlliance/status) | Uptime monitor and status page for the OSA services. | - |
 
-See the [contributors page](https://github.com/instantusername/instant-username-search/graphs/contributors) for more details.
+## License and credits
 
-## License
+OSA Username is based on [Instant Username Search](https://github.com/instantusername/instant-username-search). Credit for the original work goes to its authors.
 
-This project is licensed under the GNU General Public License v3.0 (GPL 3.0) - see the [LICENSE](LICENSE) file for details.
+License: GPL-3.0. See the [LICENSE](LICENSE) file in this repository.
